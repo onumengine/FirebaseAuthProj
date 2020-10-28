@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">WeJapaPrototype</string>
+    <string name="membership_question">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="resend_verification_email">Resend Verification Email</string>
+    <string name="enter_email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="account_settings">Account settings</string>
+    <string name="username">Username</string>
+    <string name="profile_url">Profile URL</string>
+
+    <!-- Firebase Database Nodes -->
+    <string name="dbnode_users">users</string>
+    <string name="dbnode_chatrooms">chatrooms</string>
+
+    <!-- Firebase Database Fields -->
+    <string name="dbfield_name">name</string>
+    <string name="dbfield_phone">phone</string>
+
+
+</resources>

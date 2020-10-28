@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "730805634963",
+    "firebase_url": "https://fir-demoproject-9c84f.firebaseio.com",
+    "project_id": "fir-demoproject-9c84f",
+    "storage_bucket": "fir-demoproject-9c84f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730805634963:android:d1c5815b886f41697c0a66",
+        "android_client_info": {
+          "package_name": "com.example.wejapaprototype"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730805634963-q1bpa5ma7pffjkr49aa09ronnhcdd051.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3I2ryCZQNWstmjtJr-Lp-WRJNqDP0o0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730805634963-q1bpa5ma7pffjkr49aa09ronnhcdd051.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/medium_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoggedInActivity">
+
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:src="@drawable/circle_avatar"
+        android:layout_marginBottom="@dimen/big_margin"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="@dimen/medium_margin"
+        android:layout_marginHorizontal="@dimen/big_margin"
+        android:background="@color/colorViewDivider" />
+
+    <LinearLayout
+        android:id="@+id/username_linearLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/big_margin"
+        android:paddingVertical="@dimen/tiny_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/tiny_margin"
+            android:text="@string/username"
+            android:textSize="@dimen/small_text"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/profile_username_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:textSize="@dimen/small_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/email_linearLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_margin"
+        android:paddingVertical="@dimen/tiny_margin" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/tiny_margin"
+            android:text="@string/enter_email"
+            android:textSize="@dimen/small_text"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/profile_email_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:textSize="@dimen/small_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/profile_url_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_margin"
+        android:paddingVertical="@dimen/tiny_margin" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/tiny_margin"
+            android:text="@string/profile_url"
+            android:textSize="@dimen/small_text"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/profile_url_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:textSize="@dimen/small_text" />
+
+    </LinearLayout>
+
+</LinearLayout>
